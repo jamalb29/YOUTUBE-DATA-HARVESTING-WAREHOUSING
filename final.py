@@ -370,5 +370,5 @@ if option == "query":
         dfq10=pd.DataFrame(t10,columns=["video_title","channel_name","comment"])
         dfq10
 
-        # SQL DB connection close
+        # MySQL DB connection close
     connection.close()
